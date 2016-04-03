@@ -86,7 +86,7 @@ def gpa_grade(letter_grade)
   when "C-"
     grade = 1.7
   when "D"
-    grade = 1.7
+    grade = 1.0
   when "F"
     grade = 0.0
   else
