@@ -43,21 +43,21 @@ def letter_grade(grade)
   case grade
   when 94..100
     letter = "A"
-  when 90..93
+  when 90..grade
     letter = "A-"
-  when 87..89
+  when 87..grade
     letter = "B+"
-  when 84..86
+  when 84..grade
     letter = "B"
-  when 80..83
+  when 80..grade
     letter = "B-"
-  when 77..79
+  when 77..grade
     letter = "C+"
-  when 74..76
+  when 74..grade
     letter = "C"
-  when 70..73
+  when 70..grade
     letter =  "C-"
-  when 60..69
+  when 60..grade
     letter =  "D"
   else
     letter =  "F"
